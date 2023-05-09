@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+    <title>Self Service Password Reset</title><meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+
+<meta name="robots" content="noindex,nofollow"/>
+
+<meta id="application-info" name="application-name" content="SSPR Password Self Service"
+
+      
+
+      data-sspr-instance="8E5F3C59B24136F2"
+
+      data-jsp-name="login.jsp"
+
+      data-url-context="/sspr"
+
+      data-pwmFormID="H4sIAAAAAAAAAAGaAGX_UFdNLkdDTTEQ8LYNpDao6lguA505dX4Pac20i7jnOBxE3qRj6CdknomuUuB1Itv0QSRD9BlCEBVs0EBQCt2x7i-0oCGLq20b9eHTLAacE0tl4cJaYJ-aMGmbgPaX9UeHcXrzcwbF6YRrcww7dnIvn9NSUW-ajrCZuY8FzN_G5q77ijj-w8Syx8BgAZSWHPpKK2vu7cNTMBAM6YNhVRGaAAAA"
+
+      data-clientEtag="f530bb94d5c3082e7875d514aedc36c10ab7996a">
+
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=no"/>
+
+<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7" />
+
+<link rel="icon" type="image/png" href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/favicon.png"/>
+
+<link rel="stylesheet" type="text/css" href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/pwm-icons.css"/>
+
+<link href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/style.css" rel="stylesheet" type="text/css" media="screen"/>
+
+<link href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/style-print.css" rel="stylesheet" type="text/css" media="print"/>
+
+<link href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/themes/UFS/style.css" rel="stylesheet" type="text/css" media="screen"/>
+
+<link media="only screen and (max-width: 600px)" href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/mobileStyle.css" type="text/css" rel="stylesheet"/><link media="only screen and (max-width: 600px)" href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/themes/UFS/mobileStyle.css" type="text/css" rel="stylesheet"/><link href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/webjars/dijit/themes/nihilo/nihilo.css" rel="stylesheet" type="text/css"/>
+
+<link href="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/webjars/dgrid/css/dgrid.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" nonce="X3GJccvpSBWQsRq2lVr5lpwn8tegCm3Y">
+
+        var PWM_GLOBAL = PWM_GLOBAL || {}; PWM_GLOBAL['startupFunctions'] = [];
+
+    
+
+</script><noscript></noscript></head>
+
+<body class="nihilo">
+
+<div id="wrapper" class="login-wrapper">
+
+    <div id="header">
+
+    <div id="header-company-logo">
+
+    </div>
+
+    <div id="header-balance-div">
+
+        <br/></div>
+
+    <div id="header-right-logo">
+
+    </div>
+
+    <div id="header-center">
+
+        <div id="header-center-left">
+
+            <div id="header-page">Please Sign in</div>
+
+            <div id="header-title">
+
+                <span class="title-long">Self Service Password Reset</span>
+
+                <span class="title-short">SSPR</span>
+
+            </div>
+
+        </div>
+
+        <div id="header-center-right">
+
+            <div id="header-menu-wrapper">
+
+                <div id="header-menu">
+
+                    <div id="header-username-group">
+
+                        </div>
+
+                </div>
+
+                </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="centerbody">
+
+        <noscript>
+
+            <div class="pwm-status-message">
+
+                <div class="pwm-status-message-title">
+
+                    <i class="pwm-icon pwm-icon-status_warn_thick pwm-warn"></i>
+
+                    <span>JavaScript is Not Enabled</span>
+
+                </div>
+
+                <p>This application relies heavily on JavaScript to function properly.  While a few features may still be available with reduced functionality, it is recommended to enable JavaScript in your browser to have the best experience.</p>
+
+            </div>
+
+        </noscript>
+
+        <h1 id="page-content-title">Please Sign in</h1>
+
+        <p>
+
+            <span class="panel-login-display-message"></span>
+
+        </p>
+
+        <form action="/sspr/private/login" method="post" name="login" enctype="application/x-www-form-urlencoded" id="login" autocomplete="off" class="pwm-form-captcha">
+
+            <div id="message_wrapper">
+
+<span style="display:none" id="message" class="message">&nbsp;</span>
+
+<div id="capslockwarning" style="display:none;">CAPS LOCK is on</div>
+
+</div>
+
+<div class="sign-in">
+
+                <div style="display: none" id="contextSelectorWrapper">
+
+    <h2 class="loginFieldLabel"><label for="context">Location</label></h2>
+
+    <div class="formFieldWrapper">
+
+        <select name="context" id="context" class="selectfield" title="Location">
+
+            </select>
+
+    </div>
+
+</div>
+
+<h2 class="loginFieldLabel"><label for="username">User Name</label></h2>
+
+                <div class="formFieldWrapper">
+
+                    <input type="text" name="username" id="username" title="User Name" placeholder="User Name" class="inputfield" autofocus="autofocus"  required="required">
+
+                </div>
+
+                <h2 class="loginFieldLabel"><label for="password">Password</label></h2>
+
+                <div class="formFieldWrapper">
+
+                    <input type="password" name="password" id="password" title="Password" placeholder="Password" required="required" class="inputfield passwordfield"/>
+
+                </div>
+
+                <div id="recaptcha-container">
+
+</div>
+
+<noscript>
+
+    <span>Javascript is required to view this page.</span>
+
+    <a href="/sspr">Main Menu</a>
+
+</noscript>
+
+<!-- captcha v3-invisible 1.0 -->
+
+<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response"/>
+
+<script type="text/javascript" nonce="X3GJccvpSBWQsRq2lVr5lpwn8tegCm3Y">
+
+        PWM_GLOBAL['startupFunctions'].push(function() {
+
+            PWM_MAIN.doQuery('.pwm-form-captcha',function(formElement) {
+
+                PWM_MAIN.addEventHandler(formElement, "submit", function(event){
+
+                    PWM_MAIN.log('entering handleCaptchaFormSubmit');
+
+                    PWM_VAR['captcha-form-element'] = formElement;
+
+                    PWM_MAIN.cancelEvent(event);
+
+                    PWM_MAIN.showWaitDialog({loadFunction: function () {
+
+                            try {
+
+                                grecaptcha.execute();
+
+                            } catch (e) {
+
+                                PWM_MAIN.log('error executing invisible recaptcha: ' + e);
+
+                                PWM_FORM.handleFormSubmit(formElement);
+
+                            }
+
+                    }});
+
+                });
+
+            });
+
+        });
+
+        var onloadCaptcha = function() {
+
+            PWM_MAIN.log('entering onloadCaptcha');
+
+        };
+
+        var postCaptchaFormSubmit = function(response) {
+
+            PWM_MAIN.log('entering postCaptchaFormSubmit, response=' + response);
+
+            var form = PWM_VAR['captcha-form-element'];
+
+            PWM_MAIN.getObject('g-recaptcha-response').value = response;
+
+            PWM_MAIN.handleFormSubmit(form);
+
+        };
+
+    
+
+</script><noscript></noscript><div class="g-recaptcha"
+
+     data-sitekey="6LemcKgUAAAAAFRpQ9CB9PLkqrXeybnDsVqt06JP"
+
+     data-callback="postCaptchaFormSubmit"
+
+     data-size="invisible">
+
+</div>
+
+<script nonce="X3GJccvpSBWQsRq2lVr5lpwn8tegCm3Y" src="//www.google.com/recaptcha/api.js?onload=onloadCaptcha" async defer></script>
+
+<div class="buttonbar">
+
+                    <button type="submit" class="btn pwm-btn-submit"  name="button" id="submitBtn">
+
+                        <span class="btn-icon pwm-icon pwm-icon-sign-in"></span>Sign in</button>
+
+                    <input type="hidden" name="processAction" value="login">
+
+                    <input type="hidden" id="pwmFormID" name="pwmFormID" value="H4sIAAAAAAAAAAGaAGX_UFdNLkdDTTEQ8LYNpDao6lguA505dX4Pam0xo_8fGm4Ik6wPy9zZNMwjM5n-6GO7HX6PpR6ru-SwxhB3nZA-24gm4rH5r1o0QgWQvqiucshobRx6yT46A0sQhZCw-a3KFHBon1mOMP2BV1DUqkDoYvwb0P-nY9pETHO18X6ooiSWt5HE7UywG4wTHIxApcCN5XEY-AVdcohO3W8NMCqaAAAA"/>
+
+                </div>
+
+            </div>
+
+        </form>
+
+        <table class="noborder">
+
+                    <tr>
+
+                            <td class="menubutton_key">
+
+                                <a class="menubutton" tabindex="0" id="Title_ForgottenPassword" href="/sspr/public/forgottenpassword">
+
+                                    <span class="btn-icon pwm-icon pwm-icon-unlock"></span>Forgotten Password</a>
+
+                            </td>
+
+                            <td class="menubutton-description">
+
+                                <p>Regain access to your account if you have forgotten your password.</p>
+
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+            </div>
+
+    <div class="push"></div>
+
+</div>
+
+<div id="footer">
+
+        <span class="infotext">&nbsp;</span>
+
+        <div id="footer-content">
+
+            <span class="footer-segment">
+
+                <span id="idle_wrapper">
+
+                <span id="idle_status">
+
+                Idle Timeout:&nbsp;5 minutes</span>
+
+                </span>
+
+                </span>
+
+                <span class="footer-segment">
+
+                    <span id="localeSelectionMenu">
+
+                        <img src="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/webjars/famfamfam-flags/dist/png/us.png"
+
+                             alt="us"/>
+
+                        <span class="localeDisplayName">English</span>
+
+                    </span>
+
+                </span>
+
+            </div>
+
+    </div>
+
+<script type="text/javascript" nonce="X3GJccvpSBWQsRq2lVr5lpwn8tegCm3Y">
+
+        var dojoConfig = { has: { "csp-restrictions":false }, async:true }
+
+    
+
+</script><noscript></noscript><script nonce="X3GJccvpSBWQsRq2lVr5lpwn8tegCm3Y" dojo-sync-loader="false" type="text/javascript" src="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/webjars/dojo/dojo.js"></script><noscript></noscript>
+
+<script type="text/javascript" nonce="X3GJccvpSBWQsRq2lVr5lpwn8tegCm3Y" src="/sspr/public/resources/nonce-1ee9eabaa40d9d4cfd963c28135eee2f/js/main.js"></script><noscript></noscript></body>
+
+</html>
+
